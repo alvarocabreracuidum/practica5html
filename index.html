@@ -16,8 +16,8 @@
             <h2 class="logo">Portfolio<span>lio</span></h2>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#sobrenosotros">About Us</a></li>
+                <li><a href="#servicios">Services</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
@@ -39,7 +39,7 @@
     </div>
 
 
-    <section class="about">
+    <section class="about"> <a id="sobrenosotros"></a>
         <div class="main">
             <img src="img/Captura de pantalla 2025-03-26 153750.png" alt="About me image">
             <div class="about-text">
@@ -55,7 +55,7 @@
         </div>
     </section>
 
-    <div class="service">
+    <div class="service"> <a id="servicios"></a>
         <div class="title">
             <h2>Our Services</h2>
         </div>
@@ -102,6 +102,79 @@
         </div>
     </div>
 
+    <main class="services container">
+        <a id="Servicio"></a>
+        <a href="#" class="info">Tiempo real</a>
+        <h2>Nuestros Servicios</h2>
+        <div class="services-content">
+            <div class="services-txt">
+                <div class="services-card">
+                    <img src="img/1.svg" alt="">
+                    <div class="card-txt">
+                        <h3>Servicios en linea</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis cumque culpa, nam
+                            repudiandae quam nulla eius obcaecati dignissimos?
+                        </p>
+                        <a href="#">Informacion</a>
+                    </div>
+                </div>
+                <div class="services-card">
+                    <img src="img/2.svg" alt="">
+                    <div class="card-txt">
+                        <h3>Servicios en linea</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis cumque culpa, nam
+                            repudiandae quam nulla eius obcaecati dignissimos?
+                        </p>
+                        <a href="#">Informacion</a>
+                    </div>
+                </div>
+                <div class="services-card">
+                    <img src="img/3.svg" alt="">
+                    <div class="card-txt">
+                        <h3>Servicios en linea</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis cumque culpa, nam
+                            repudiandae quam nulla eius obcaecati dignissimos?
+                        </p>
+                        <a href="#">Informacion</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-img">
+                <img src="img/woman.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <section class="contact">
+        <div class="contact-form">
+            <h2>Contáctanos</h2>
+            <form id="contactForm" action="gracias.html">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+        
+        <div class="contact-map">
+            <h2>Nuestra Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.6169856322864!2d-3.7033306239937174!3d40.41695905754707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sPuerta%20del%20Sol%2C%20Madrid!5e0!3m2!1ses!2ses!4v1711460136937!5m2!1ses!2ses" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
     <div class="contact-me">
         <p>Let Me Get You A Beautiful Website.</p>
         <a class="button-two" href="#">Hire me</a>
@@ -118,5 +191,6 @@
         </div>
         <p>CopyRight By Tahmid Ahmed</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
